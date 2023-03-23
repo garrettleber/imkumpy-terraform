@@ -7,11 +7,11 @@ terraform {
 }
 
 inputs = {
-  name            = "mx1"
-  id              = [101]
-  cpu             = "1"
-  mem             = "512"
+  name            = "syncthing"
+  id              = [130]
+  cpu             = "2"
+  mem             = "1024"
   disk_location   = ["local-lvm"]
-  disk_size       = "10G"
-  ip              = ["192.168.0.89"]
+  disk_size       = "20G"
+  ip              = ["192.168.0.96"]
 }

@@ -7,11 +7,11 @@ terraform {
 }
 
 inputs = {
-  name            = "mx1"
-  id              = [101]
+  name            = "omada"
+  id              = [200]
   cpu             = "1"
-  mem             = "512"
-  disk_location   = ["local-lvm"]
+  mem             = "2048"
+  disk_location   = ["local"]
   disk_size       = "10G"
-  ip              = ["192.168.0.89"]
+  ip              = ["192.168.0.95"]
 }

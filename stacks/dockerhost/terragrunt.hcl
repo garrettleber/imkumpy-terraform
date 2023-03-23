@@ -7,11 +7,11 @@ terraform {
 }
 
 inputs = {
-  name            = "mx1"
-  id              = [101]
-  cpu             = "1"
-  mem             = "512"
+  name            = "dockerhost"
+  id              = [300]
+  cpu             = "2"
+  mem             = "4096"
   disk_location   = ["local-lvm"]
-  disk_size       = "10G"
-  ip              = ["192.168.0.89"]
+  disk_size       = "20G"
+  ip              = ["192.168.0.94"]
 }

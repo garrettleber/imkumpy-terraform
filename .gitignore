@@ -27,3 +27,8 @@ override.tf.json
 terraform.rc
 
 .terraform.lock.hcl
+
+# Local terragrunt cache
+**/.terragrunt-cache/*
+
+.env

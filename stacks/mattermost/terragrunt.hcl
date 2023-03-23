@@ -7,11 +7,12 @@ terraform {
 }
 
 inputs = {
-  name            = "mx1"
-  id              = [101]
+  name            = "mattermost"
+  id              = [120]
   cpu             = "1"
   mem             = "512"
-  disk_location   = ["local-lvm"]
+  disk_location   = ["samsung-500gb"]
   disk_size       = "10G"
-  ip              = ["192.168.0.89"]
+  ip              = ["192.168.0.97"]
+  lxc_image       = "local:vztmpl/ubuntu-20.04-standard_20.04-1_amd64.tar.gz"
 }
