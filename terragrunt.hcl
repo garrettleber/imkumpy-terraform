@@ -55,7 +55,7 @@ provider "proxmox" {
 }
 
 provider "pihole" {
-  url      = "http://pihole.kumpdev.com/"
+  url      = "http://pihole.imkumpy.in/"
   password = var.pihole_password
 }
 EOF
