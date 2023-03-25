@@ -30,7 +30,7 @@ resource "proxmox_vm_qemu" "instance" {
 }
 
 resource "pihole_dns_record" "instance_internal" {
-  count  = var.instance_count
+  count  = var.create_internal_dns_record ? var.instance_count : 0
   domain = join(".", [var.instance_count > 1 ? "${var.name}${count.index + 1}" : var.name, var.internal_domain])
   ip     = var.ip[count.index] != "dhcp" ? var.ip[count.index] : proxmox_vm_qemu.instance[count.index].default_ipv4_address
 }
