@@ -19,6 +19,7 @@ inputs = {
     "pihole"           = "192.168.0.55"
     "proxmox-1"        = "192.168.0.100"
     "proxmox-backup"   = "192.168.0.105"
+    "rpi"              = "192.168.0.65"
     "serverrack-power" = "192.168.10.10"
     "teamspeak"        = "192.168.0.32"
     "unraid"           = "192.168.0.104"
@@ -33,7 +34,7 @@ inputs = {
     "vanillaish.mc"      = "prod-mc"
 
     "git"           = "rp"
-    # "homepage"      = "rp"
+    "homepage"      = "rp"
     # "mattermost"    = ""
     "omada"         = "rp"
     "qbittorrent"   = "rp"
