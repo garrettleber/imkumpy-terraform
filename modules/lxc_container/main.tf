@@ -40,7 +40,7 @@ resource "proxmox_lxc" "container" {
 }
 
 resource "pihole_dns_record" "instance_internal" {
-  count  = var.container_count
+  count  = var.create_internal_dns_record ? var.container_count : 0
   domain = join(".", [var.container_count > 1 ? "${var.name}${count.index + 1}" : var.name, var.internal_domain])
   ip     = var.ip[count.index]
 }

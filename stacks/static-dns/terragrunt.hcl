@@ -16,6 +16,7 @@ inputs = {
     "argocd"           = "192.168.0.31"
     "dietpi"           = "192.168.0.65"
     "k8s"              = "192.168.0.40"
+    "pihole"           = "192.168.0.55"
     "proxmox-1"        = "192.168.0.100"
     "proxmox-backup"   = "192.168.0.105"
     "serverrack-power" = "192.168.10.10"
@@ -31,14 +32,14 @@ inputs = {
     "fabric-creative.mc" = "prod-mc"
     "vanillaish.mc"      = "prod-mc"
 
-    "git"           = "dockerhost"
-    "homepage"      = "dockerhost"
-    "mattermost"    = "dockerhost"
-    "omada"         = "dockerhost"
-    "qbittorrent"   = "dockerhost"
-    "requests"      = "dockerhost"
-    "ryzen-proxmox" = "dockerhost"
-    "zabbix"        = "dockerhost"
+    "git"           = "rp"
+    # "homepage"      = "rp"
+    # "mattermost"    = ""
+    "omada"         = "rp"
+    "qbittorrent"   = "rp"
+    # "requests"      = ""
+    "ryzen-proxmox" = "rp"
+    # "zabbix"        = "rp"
   }
 
   static_ext_cname_records = [
