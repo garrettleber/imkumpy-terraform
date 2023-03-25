@@ -7,7 +7,7 @@ terraform {
 }
 
 inputs = {
-  name            = "omada"
+  name            = "omada1"
   id              = [200]
   cpu             = "1"
   mem             = "2048"
