@@ -28,17 +28,17 @@ inputs = {
     "git"           = "rp"
     "grafana"       = "rp"
     "homepage"      = "rp"
-    # "mattermost"    = ""
     "omada"         = "rp"
     "qbittorrent"   = "rp"
-    # "requests"      = ""
-    "proxmox" = "rp"
+    "plex"          = "rp"
+    "proxmox"       = "rp"
   }
 
   static_ext_cname_records = [
     "*.mc",
     "mattermost",
     "mc",
+    "plex",
     "requests",
     "teamspeak",
   ]
