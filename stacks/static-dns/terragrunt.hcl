@@ -29,9 +29,10 @@ inputs = {
     "grafana"       = "rp"
     "homepage"      = "rp"
     "omada"         = "rp"
-    "qbittorrent"   = "rp"
+    "panel"         = "rp"
     "plex"          = "rp"
     "proxmox"       = "rp"
+    "qbittorrent"   = "rp"
   }
 
   static_ext_cname_records = [
