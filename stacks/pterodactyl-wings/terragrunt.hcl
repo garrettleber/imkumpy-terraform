@@ -7,11 +7,11 @@ terraform {
 }
 
 inputs = {
-  name          = "pterodactyl"
-  id            = [320]
-  cpu           = "1"
-  mem           = "512"
+  name          = "pterodactyl-wings"
+  id            = [321]
+  cpu           = "6"
+  mem           = "16384"
   disk_location = ["samsung-500gb"]
-  disk_size     = "10G"
+  disk_size     = "30G"
   ip            = ["dhcp"]
 }

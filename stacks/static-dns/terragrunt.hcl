@@ -23,6 +23,8 @@ inputs = {
 
   static_int_cname_records = {
     "loki"         = "k3s-ingress"
+    
+    "wing"        = "pterodactyl-wings"
 
     "alertmanager"  = "rp"
     "git"           = "rp"
