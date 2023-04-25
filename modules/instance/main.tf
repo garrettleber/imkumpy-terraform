@@ -14,7 +14,7 @@ resource "proxmox_vm_qemu" "instance" {
   automatic_reboot = false
   disk {
     size    = var.disk_size
-    storage = var.disk_location[length(var.disk_location) % (count.index + 1)]
+    storage = var.disk_location[(count.index) % length(var.disk_location)]
     type    = "scsi"
   }
   ipconfig0 = var.ip[count.index] != "dhcp" ? "ip=${var.ip[count.index]}/24,gw=192.168.0.1" : "ip=dhcp"
