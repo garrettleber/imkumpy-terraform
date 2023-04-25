@@ -45,6 +45,12 @@ variable "instance_count" {
   default     = 1
 }
 
+variable "only_single_instance" {
+  type        = bool
+  description = "Whether this module is only for a single instance, determines whether to append the index to the name"
+  default     = false
+}
+
 variable "ip" {
   type        = list(string)
   description = "The ip to give the instance(s), must be the same length as instance count. e.g. dhcp, or 192.168.0.10"
