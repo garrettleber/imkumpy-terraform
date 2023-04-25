@@ -8,12 +8,12 @@ terraform {
 
 inputs = {
   name          = "portainer-agent"
-  id            = [331]
+  id            = [331, 332]
   cpu           = "2"
   mem           = "4096"
   disk_location = ["samsung-500gb"]
   disk_size     = "40G"
-  ip            = ["192.168.0.71"]
+  ip            = ["192.168.0.71", "192.168.0.72"]
   only_single_instance = false # in case we need to add more later
-  instance_count = 1
+  instance_count = 2
 }
