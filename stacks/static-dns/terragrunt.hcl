@@ -27,6 +27,7 @@ inputs = {
     "omada"         = "rp"
     "panel"         = "rp"
     "plex"          = "rp"
+    "portainer"     = "rp"
     "proxmox"       = "rp"
     "qbittorrent"   = "rp"
   }
