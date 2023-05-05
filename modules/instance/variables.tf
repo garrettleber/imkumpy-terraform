@@ -48,7 +48,7 @@ variable "instance_count" {
 variable "only_single_instance" {
   type        = bool
   description = "Whether this module is only for a single instance, determines whether to append the index to the name"
-  default     = false
+  default     = true
 }
 
 variable "ip" {
