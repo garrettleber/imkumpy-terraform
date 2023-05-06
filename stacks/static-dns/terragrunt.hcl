@@ -22,6 +22,7 @@ inputs = {
     
     "wing"        = "pterodactyl-wings"
 
+    "atlantis"      = "rp"
     "git"           = "rp"
     "homepage"      = "rp"
     "omada"         = "rp"
