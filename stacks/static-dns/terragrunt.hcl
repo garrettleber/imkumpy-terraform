@@ -31,6 +31,7 @@ inputs = {
     "portainer"     = "rp"
     "proxmox"       = "rp"
     "qbittorrent"   = "rp"
+    "semaphore"     = "rp"
   }
 
   static_ext_cname_records = [
