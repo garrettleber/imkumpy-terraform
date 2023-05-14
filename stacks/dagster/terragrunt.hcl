@@ -9,8 +9,8 @@ terraform {
 inputs = {
   name            = "dagster"
   id              = [170]
-  cpu             = "1"
-  mem             = "512"
+  cpu             = "2"
+  mem             = "4096"
   disk_location   = ["samsung-500gb"]
   disk_size       = "10G"
   ip              = ["192.168.0.86"]
