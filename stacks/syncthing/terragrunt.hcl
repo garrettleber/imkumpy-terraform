@@ -12,6 +12,6 @@ inputs = {
   cpu             = "2"
   mem             = "1024"
   disk_location   = ["local-lvm"]
-  disk_size       = "40G"
+  disk_size       = "60G"
   ip              = ["192.168.0.96"]
 }
