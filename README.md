@@ -4,7 +4,7 @@ A repo to manage my self-hosted resources via Terraform
 
 ## CI/CD
 
-This repo uses [Atlantis](https://www.runatlantis.io/) to manage CI/CD. Atlantis is a tool for Terraform that provides a workflow for collaborating on Terraform through pull requests. It is deployed as a Docker stack on my Portainer instance. You can see the configuration in the [portainer-stacks](https://git.imkumpy.in/kumpy/portainer-stacks) repo.
+This repo uses [Atlantis](https://www.runatlantis.io/) to manage CI/CD. Atlantis is a tool for Terraform that provides a workflow for collaborating on Terraform through pull requests. It is deployed as a Docker stack on my Portainer instance. You can see the configuration in the [portainer-stacks](https://github.com/garrettleber/portainer-stacks) repo.
 
 ## Requirements (if not using Atlantis)
 
@@ -23,6 +23,8 @@ This repo uses [Atlantis](https://www.runatlantis.io/) to manage CI/CD. Atlantis
   - `CLOUDFLARE_API_TOKEN`
 
 ## Workflow
+
+**NOTE: This workflow only works on my private self-hosted git server, not on Github.** The Github repo is simply a mirror of my local repository.
 
 1. Clone this repo
 2. Checkout a new branch
