@@ -4,7 +4,7 @@ A repo to manage my self-hosted resources via Terraform
 
 ## CI/CD
 
-This repo uses [Atlantis](https://www.runatlantis.io/) to manage CI/CD. Atlantis is a tool for Terraform that provides a workflow for collaborating on Terraform through pull requests. It is deployed as a Docker stack on my Portainer instance. You can see the configuration in the [portainer-stacks](https://github.com/garrettleber/portainer-stacks) repo.
+This repo uses [Atlantis](https://www.runatlantis.io/) to manage CI/CD. Atlantis is a tool for Terraform that provides a workflow for collaborating on Terraform through pull requests. It is deployed as a Docker stack on my Portainer instance. You can see the configuration in the [portainer-stacks](https://github.com/tcpkump/portainer-stacks) repo.
 
 ## Requirements (if not using Atlantis)
 
